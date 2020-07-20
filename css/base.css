@@ -1,0 +1,15 @@
+div{
+    border: 1px solid;
+    display: grid;
+}
+@media screen and (min-width:768px), (max-width:960){
+    main{
+        padding: 80px 0;
+    }
+}
+
+@media screen and (min-width:480px)and (max-width:767px){
+    main{
+        padding: 80px 255px;
+    }
+}
