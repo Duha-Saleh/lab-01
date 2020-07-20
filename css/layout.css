@@ -1,0 +1,132 @@
+#cont{
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'menu main main main right right'
+      'menu footer footer footer footer footer';
+     grid-gap: 10px;
+     padding: 10px;
+     box-sizing: border-box;
+     justify-content: space-evenly;
+}
+@media screen and (min-width:768px), (max-width:960){
+    #a{
+        height: 100px;
+        width: 958px;
+        grid-area: header;
+        margin: 0px 278px;
+    }
+    #b{
+        height: 600px;
+        width: 200px;
+        grid-area: menu;
+        margin: -10.5px 278px;
+    }
+    #c{
+        height: 200px;
+        width: 380px;
+        grid-area: main;
+        margin: -10.5px -289.5px;
+        margin-right: 0;
+    }
+    #d{
+        height: 200px;
+        width: 380px;
+        grid-area: main;
+        margin: -10.5px 90.5px;
+        margin-right: -2px;
+    }
+    #e{
+        height: 250px;
+        width: 190px;
+        grid-area: main;
+        margin: 189px -289.25px;
+        margin-right: 0;
+    }
+    #f{
+        height: 250px;
+        width: 190px;
+        grid-area: main;
+        margin: 189px 0;
+        margin-left: -99.7px;
+    }
+    #g{
+        height: 250px;
+        width: 190px;
+        grid-area: main;
+        margin: 189px 90px;
+    }
+    #h{
+        height: 250px;
+        width: 190px;
+        grid-area: main;
+        margin: 189px 280px;
+    }
+    #i{
+        height: 150px;
+        width: 760px;
+        grid-area: footer;
+        margin: -198.5px -289.5px;
+    }
+}
+
+@media screen and (min-width:480px)and (max-width:767px){
+    #a{
+        height: 75px;
+        width: 480px;
+        grid-area: header;
+        margin: 0px 278px;
+    }
+    #b{
+        height: 150px;
+        width: 480px;
+        grid-area: menu;
+        margin: -10.5px 278px;
+    }
+    #c{
+        height: 125px;
+        width: 480px;
+        grid-area: main;
+        margin: 139.5px -768px;
+        margin-right: 0;
+    }
+    #d{
+        height: 125px;
+        width: 480px;
+        grid-area: main;
+        margin: 264.5px -768px;
+        margin-right: -2px;
+    }
+    #e{
+        height: 250px;
+        width: 240px;
+        grid-area: main;
+        margin: 390px -768px;
+        margin-right: 0;
+    }
+    #f{
+        height: 250px;
+        width: 240px;
+        grid-area: main;
+        margin: 390px 0;
+        margin-left: -528px;
+    }
+    #g{
+        height: 250px;
+        width: 240px;
+        grid-area: main;
+        margin: 640px -768px;
+    }
+    #h{
+        height: 250px;
+        width: 240px;
+        grid-area: main;
+        margin: 640px -528px;
+    }
+    #i{
+        height: 80px;
+        width: 480px;
+        grid-area: footer;
+        margin: -650.5px -768px;
+    }
+}
