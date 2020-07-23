@@ -5,7 +5,7 @@
       'menu main main main right right'
       'menu footer footer footer footer footer';
      grid-gap: 10px;
-     padding: 10px;
+     padding: 16px;
      box-sizing: border-box;
      justify-content: space-evenly;
 }
@@ -20,7 +20,7 @@
         height: 600px;
         width: 200px;
         grid-area: menu;
-        margin: -10.5px 278px;
+        margin: -10.5px 275px;
     }
     #c{
         height: 200px;
